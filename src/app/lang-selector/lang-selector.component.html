@@ -1,0 +1,14 @@
+<div class="relative">
+  <select
+    [(ngModel)]="language"
+    (ngModelChange)="setLanguage($event)"
+    class="appearance-none bg-transparent border border-gray-300 rounded-lg px-3 py-2 pr-8 text-sm text-gray-600 hover:text-blue-600 hover:border-blue-600 transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+  >
+    <option value="pt">🇵🇹 PT</option>
+    <option value="en">🇺🇸 EN</option>
+  </select>
+  <i-lucide
+    [img]="languages"
+    class="absolute right-1 top-1/2 transform -translate-y-1/2 w-5 h-4 text-gray-400 pointer-events-none"
+  ></i-lucide>
+</div>

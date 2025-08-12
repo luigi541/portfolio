@@ -1,0 +1,38 @@
+<nav
+  class="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-100"
+>
+  <div class="max-w-6xl mx-auto px-6 py-4">
+    <div class="flex justify-between items-center">
+      <div class="text-xl font-bold text-gray-900">
+        {{ "nav.portfolio" | translate }}
+      </div>
+      <div class="hidden md:flex gap-8">
+        <button
+          class="text-gray-600 hover:text-blue-600 transition-colors"
+          onclick="document.getElementById('home').scrollIntoView({ behavior: 'smooth' })"
+        >
+          {{ "nav.home" | translate }}
+        </button>
+        <button
+          class="text-gray-600 hover:text-blue-600 transition-colors"
+          onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })"
+        >
+          {{ "nav.about" | translate }}
+        </button>
+        <button
+          class="text-gray-600 hover:text-blue-600 transition-colors"
+          onclick="document.getElementById('home').scrollIntoView({ behavior: 'smooth' })"
+        >
+          {{ "nav.projects" | translate }}
+        </button>
+        <button
+          class="text-gray-600 hover:text-blue-600 transition-colors"
+          onclick="document.getElementById('home').scrollIntoView({ behavior: 'smooth' })"
+        >
+          {{ "nav.contact" | translate }}
+        </button>
+        <app-lang-selector></app-lang-selector>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,47 @@
+<section id="about" class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold text-gray-900 mb-6">
+        {{ "about.title" | translate }}
+      </h2>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+        {{ "about.description" | translate }}
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      @for (skill of skills; track $index) {
+      <div
+        class="bg-gray-50 p-8 rounded-xl hover:shadow-lg transition-shadow group mx-auto max-w-sm md:max-w-none"
+      >
+        <div
+          class="bg-blue-100 text-blue-600 w-16 h-16 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-200 transition-colors"
+        >
+          @if (skill.icon === "code") {
+          <i-lucide [img]="code" class="w-7 h-7"></i-lucide>}@else if
+          (skill.icon === "compass") {
+          <i-lucide [img]="compass" class="w-7 h-7"></i-lucide>
+          } @else if (skill.icon === "server") {
+          <i-lucide [img]="server" class="w-7 h-7"></i-lucide>
+          }@else {<i-lucide [img]="palette" class="w-7 h-7"></i-lucide>}
+        </div>
+        <h3 class="text-xl font-semibold text-gray-900 mb-3">
+          {{ skill.name }}
+        </h3>
+        <p class="text-gray-600">{{ skill.description }}</p>
+      </div>
+      }
+    </div>
+
+    <div class="mt-16 bg-gradient-to-r from-blue-50 to-gray-50 p-8 rounded-2xl">
+      <div class="text-center">
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">
+          {{ "journey.title" | translate }}
+        </h3>
+        <p class="text-gray-700 max-w-4xl mx-auto leading-relaxed">
+          {{ "journey.description" | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

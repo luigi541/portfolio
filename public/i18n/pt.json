@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "portfolio": "Portfólio",
+    "home": "Início",
+    "about": "Sobre mim",
+    "projects": "Trabalhos",
+    "contact": "Contactos"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou o",
+    "name": "Diogo Azevedo",
+    "description": "Programador júnior apaixonado por desenvolver soluções web criativas e de alto impacto",
+    "viewWork": "Ver o meu Trabalho",
+    "downloadCV": "Download CV",
+    "getInTouch": "Entre em contacto"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "description": "Sou um programador júnior motivado, recém-formado num CTeSP em Desenvolvimento Web e Multimédia, onde desenvolvi bases sólidas em front-end e back-end. Estou entusiasmado por iniciar a minha carreira na área e continuo a aprender e a construir projetos que dão resposta a problemas reais.",
+    "skills": {
+      "frontend": {
+        "name": "Desenvolvimento Frontend",
+        "description": "React, JavaScript, HTML5, CSS3, Tailwind CSS",
+        "icon": "code"
+      },
+      "backend": {
+        "name": "Aprendendo Backend",
+        "description": "Básico de Node.js, Express.js, APIs REST",
+        "icon": "server"
+      },
+      "design": {
+        "name": "Design & Ferramentas",
+        "description": "Design Responsivo, Básico de Figma, Git & GitHub",
+        "icon": "palette"
+      },
+      "exploring": {
+        "name": "Explorando Atualmente",
+        "description": "TypeScript, Next.js, Fundamentos de Banco de Dados",
+        "icon": "compass"
+      }
+    }
+  },
+
+  "journey": {
+    "title": "A Minha Jornada",
+    "description": "A minha jornada na programação começou pela curiosidade sobre como os sites funcionam, o que me levou a fazer alguns cursos online e, mais tarde, a ingressar num CTeSP em Desenvolvimento Web e Multimédia. Construí vários projetos pessoais para praticar as minhas competências e estou constantemente a aprender através de cursos online, desafios de programação e a contribuir para projetos de código aberto. Estou entusiasmado por levar a minha perspetiva fresca e energia a uma equipa de desenvolvimento onde possa continuar a evoluir."
+  },
+
+  "projects": {
+    "title": "Projetos em Destaque",
+    "description": "Aqui estão alguns projetos que construí enquanto aprendia a programar. Cada um me ensinou algo novo e me ajudou a crescer como desenvolvedor.",
+    "items": [
+      {
+        "title": "Rastreador de Finanças Pessoais",
+        "description": "Uma aplicação web responsiva para rastrear despesas e receitas com gráficos interativos. Construído como um projeto de aprendizado para praticar React hooks e armazenamento local."
+      },
+      {
+        "title": "App Buscador de Receitas",
+        "description": "Um projeto divertido que ajuda usuários a encontrar receitas baseadas nos ingredientes que têm. Integrado com uma API de receitas e possui uma interface limpa e intuitiva."
+      },
+      {
+        "title": "Site Portfólio",
+        "description": "Este próprio portfólio! Construído com React e Tailwind CSS para mostrar meus projetos e habilidades. Possui animações suaves e design responsivo."
+      }
+    ],
+    "code": "Código",
+    "demo": "Demo"
+  },
+  "contact": {
+    "title": "Vamos Trabalhar Juntos",
+    "description": "Estou procurando ativamente por minha primeira vaga como desenvolvedor e animado com oportunidades para aprender e contribuir com projetos significativos.",
+    "email": {
+      "title": "Me Envie um Email",
+      "description": "Mande uma mensagem a qualquer hora"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "Conecte-se comigo profissionalmente"
+    },
+    "github": {
+      "title": "GitHub",
+      "description": "Confira meu código"
+    },
+    "cta": {
+      "title": "Pronto para Começar Minha Carreira?",
+      "description": "Estou ansioso para me juntar a uma equipe onde posso contribuir, aprender e crescer como desenvolvedor. Vamos nos conectar e discutir como posso agregar valor aos seus projetos.",
+      "connect": "Vamos Nos Conectar"
+    }
+  },
+  "footer": {
+    "role": "Desenvolvedor de Software Júnior",
+    "rights": "© 2025 Alex Developer. Todos os direitos reservados."
+  }
+}
