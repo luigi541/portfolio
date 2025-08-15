@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { TranslatePipe, TranslateService } from '@ngx-translate/core';
-import { skills } from '../model/skills.model';
+import { Skills } from '../model/skills.model';
 import {
   LucideAngularModule,
   Palette,
@@ -21,12 +21,11 @@ export class AboutComponent {
   readonly server = Server;
   readonly code = CodeXml;
 
-  skills: skills[] = [];
+  skills: Skills[] = [];
 
   constructor(private translate: TranslateService) {
     this.translate.stream('about.skills').subscribe((translations) => {
       this.skills = Object.values(translations);
-      console.log(this.skills);
     });
   }
 }
