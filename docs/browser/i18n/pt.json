@@ -1,0 +1,101 @@
+{
+  "nav": {
+    "portfolio": "Portfólio",
+    "home": "Início",
+    "about": "Sobre mim",
+    "projects": "Trabalhos",
+    "contact": "Contactos"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou o",
+    "name": "Diogo Azevedo",
+    "description": "Programador júnior apaixonado por desenvolver soluções web criativas e de alto impacto",
+    "viewWork": "Ver o meu Trabalho",
+    "downloadCV": "Download CV",
+    "getInTouch": "Entre em contacto"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "description": "Sou um programador júnior motivado, recém-formado num CTeSP em Desenvolvimento Web e Multimédia, onde desenvolvi bases sólidas em front-end e back-end. Estou entusiasmado por iniciar a minha carreira na área e continuo a aprender e a construir projetos que dão resposta a problemas reais.",
+    "skills": {
+      "frontend": {
+        "name": "Desenvolvimento Frontend",
+        "description": "Angular, TypeScript, HTML5, CSS3, Tailwind CSS",
+        "icon": "code"
+      },
+      "backend": {
+        "name": "Aprendendo Backend",
+        "description": "Node.js, Express.js, APIs REST",
+        "icon": "server"
+      },
+      "design": {
+        "name": "Design & Ferramentas",
+        "description": "Design Responsivo, Figma, Git & GitHub, Supabase",
+        "icon": "palette"
+      },
+      "exploring": {
+        "name": "Explorando Atualmente",
+        "description": "Next.js, React",
+        "icon": "compass"
+      }
+    }
+  },
+
+  "journey": {
+    "title": "A Minha Jornada",
+    "description": "A minha jornada na programação começou pela curiosidade sobre como os sites funcionam, o que me levou a fazer alguns cursos online e, mais tarde, a ingressar num CTeSP em Desenvolvimento Web e Multimédia. Construí vários projetos pessoais para praticar as minhas competências e estou constantemente a aprender através de cursos online, desafios de programação e a contribuir para projetos de código aberto. Estou entusiasmado por levar a minha perspetiva fresca e energia a uma equipa de desenvolvimento onde possa continuar a evoluir."
+  },
+
+  "projects": {
+    "title": "Projetos em destaque",
+    "description": "Aqui estão alguns projetos que desenvolvi enquanto aprendia a programar. Cada um ensinou-me algo novo e ajudou-me a crescer como programador.",
+    "items": [
+      {
+        "title": "Aplicação de pesquisa de filmes",
+        "description": "Aplicação web responsiva para acompanhar os últimos lançamentos e detalhes de filmes, com design interativo. Desenvolvida como projeto de aprendizagem para praticar JavaScript e integração de APIs.",
+        "tech": ["JavaScript", "API REST", "HTML5", "CSS3"],
+        "github": "https://github.com/luigi541/movieDB"
+      },
+      {
+        "title": "Vending Machine",
+        "description": "Projeto desenvolvido em âmbito escolar que simula o software de uma máquina de venda automática. Inclui funcionalidades do ponto de vista do utilizador (compra de artigos) e do administrador (consulta de saldo, edição de preços, reposição de stock, entre outras).",
+        "tech": ["C"],
+        "github": "#"
+      },
+      {
+        "title": "Site de portefólio",
+        "description": "Este próprio portefólio! Desenvolvido com Angular e Tailwind CSS para apresentar os meus projetos e competências. Inclui animações suaves e design responsivo.",
+        "tech": ["Angular", "Tailwind CSS", "TypeScript"],
+        "github": "#",
+        "live": "#"
+      }
+    ],
+    "code": "Código",
+    "demo": "Demonstração"
+  },
+  "contact": {
+    "title": "Vamos trabalhar juntos",
+    "description": "Estou ativamente à procura da minha primeira oportunidade como programador e entusiasmado com a possibilidade de aprender e contribuir para projetos com impacto.",
+    "email": {
+      "title": "Envia-me um e-mail",
+      "description": "Envia-me uma mensagem a qualquer momento"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "description": "Liga-te a mim no LinkedIn"
+    },
+    "github": {
+      "title": "GitHub",
+      "description": "Vê o meu código"
+    },
+    "cta": {
+      "title": "Pronto para começar?",
+      "description": "Estou ansioso por integrar uma equipa onde possa contribuir, aprender e crescer como programador. Vamos falar sobre como posso acrescentar valor aos teus projetos.",
+      "connect": "Vamos falar"
+    }
+  },
+  "footer": {
+    "role": "Programador de software júnior",
+    "rights": "© 2025 Diogo Azevedo. Todos os direitos reservados."
+  }
+}
