@@ -20,22 +20,22 @@
     "skills": {
       "frontend": {
         "name": "Desenvolvimento Frontend",
-        "description": "React, JavaScript, HTML5, CSS3, Tailwind CSS",
+        "description": "Angular, TypeScript, HTML5, CSS3, Tailwind CSS",
         "icon": "code"
       },
       "backend": {
         "name": "Aprendendo Backend",
-        "description": "Básico de Node.js, Express.js, APIs REST",
+        "description": "Node.js, Express.js, APIs REST",
         "icon": "server"
       },
       "design": {
         "name": "Design & Ferramentas",
-        "description": "Design Responsivo, Básico de Figma, Git & GitHub",
+        "description": "Design Responsivo, Figma, Git & GitHub, Supabase",
         "icon": "palette"
       },
       "exploring": {
         "name": "Explorando Atualmente",
-        "description": "TypeScript, Next.js, Fundamentos de Banco de Dados",
+        "description": "Next.js, React",
         "icon": "compass"
       }
     }
@@ -47,48 +47,55 @@
   },
 
   "projects": {
-    "title": "Projetos em Destaque",
-    "description": "Aqui estão alguns projetos que construí enquanto aprendia a programar. Cada um me ensinou algo novo e me ajudou a crescer como desenvolvedor.",
+    "title": "Projetos em destaque",
+    "description": "Aqui estão alguns projetos que desenvolvi enquanto aprendia a programar. Cada um ensinou-me algo novo e ajudou-me a crescer como programador.",
     "items": [
       {
-        "title": "Rastreador de Finanças Pessoais",
-        "description": "Uma aplicação web responsiva para rastrear despesas e receitas com gráficos interativos. Construído como um projeto de aprendizado para praticar React hooks e armazenamento local."
+        "title": "Aplicação de pesquisa de filmes",
+        "description": "Aplicação web responsiva para acompanhar os últimos lançamentos e detalhes de filmes, com design interativo. Desenvolvida como projeto de aprendizagem para praticar JavaScript e integração de APIs.",
+        "tech": ["JavaScript", "API REST", "HTML5", "CSS3"],
+        "github": "https://github.com/luigi541/movieDB"
       },
       {
-        "title": "App Buscador de Receitas",
-        "description": "Um projeto divertido que ajuda usuários a encontrar receitas baseadas nos ingredientes que têm. Integrado com uma API de receitas e possui uma interface limpa e intuitiva."
+        "title": "Vending Machine",
+        "description": "Projeto desenvolvido em âmbito escolar que simula o software de uma máquina de venda automática. Inclui funcionalidades do ponto de vista do utilizador (compra de artigos) e do administrador (consulta de saldo, edição de preços, reposição de stock, entre outras).",
+        "tech": ["C"],
+        "github": "#"
       },
       {
-        "title": "Site Portfólio",
-        "description": "Este próprio portfólio! Construído com React e Tailwind CSS para mostrar meus projetos e habilidades. Possui animações suaves e design responsivo."
+        "title": "Site de portefólio",
+        "description": "Este próprio portefólio! Desenvolvido com Angular e Tailwind CSS para apresentar os meus projetos e competências. Inclui animações suaves e design responsivo.",
+        "tech": ["Angular", "Tailwind CSS", "TypeScript"],
+        "github": "#",
+        "live": "#"
       }
     ],
     "code": "Código",
-    "demo": "Demo"
+    "demo": "Demonstração"
   },
   "contact": {
-    "title": "Vamos Trabalhar Juntos",
-    "description": "Estou procurando ativamente por minha primeira vaga como desenvolvedor e animado com oportunidades para aprender e contribuir com projetos significativos.",
+    "title": "Vamos trabalhar juntos",
+    "description": "Estou ativamente à procura da minha primeira oportunidade como programador e entusiasmado com a possibilidade de aprender e contribuir para projetos com impacto.",
     "email": {
-      "title": "Me Envie um Email",
-      "description": "Mande uma mensagem a qualquer hora"
+      "title": "Envia-me um e-mail",
+      "description": "Envia-me uma mensagem a qualquer momento"
     },
     "linkedin": {
       "title": "LinkedIn",
-      "description": "Conecte-se comigo profissionalmente"
+      "description": "Liga-te a mim no LinkedIn"
     },
     "github": {
       "title": "GitHub",
-      "description": "Confira meu código"
+      "description": "Vê o meu código"
     },
     "cta": {
-      "title": "Pronto para Começar Minha Carreira?",
-      "description": "Estou ansioso para me juntar a uma equipe onde posso contribuir, aprender e crescer como desenvolvedor. Vamos nos conectar e discutir como posso agregar valor aos seus projetos.",
-      "connect": "Vamos Nos Conectar"
+      "title": "Pronto para começar?",
+      "description": "Estou ansioso por integrar uma equipa onde possa contribuir, aprender e crescer como programador. Vamos falar sobre como posso acrescentar valor aos teus projetos.",
+      "connect": "Vamos falar"
     }
   },
   "footer": {
-    "role": "Desenvolvedor de Software Júnior",
-    "rights": "© 2025 Alex Developer. Todos os direitos reservados."
+    "role": "Programador de software júnior",
+    "rights": "© 2025 Diogo Azevedo. Todos os direitos reservados."
   }
 }
