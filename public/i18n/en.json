@@ -95,6 +95,10 @@
       "title": "GitHub",
       "description": "Check out my code"
     },
+    "snackbar": {
+      "copy": "Copied successfully!",
+      "close": "Close"
+    },
     "cta": {
       "title": "Ready to Start My Career?",
       "description": "I'm eager to join a team where I can contribute, learn, and grow as a developer. Let's connect and discuss how I can add value to your projects.",
