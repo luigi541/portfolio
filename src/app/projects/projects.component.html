@@ -20,9 +20,9 @@
           type="button"
           (click)="paginationService.desktop.prev()"
           [disabled]="paginationService.desktop.currentPage() === 1"
-          class="flex items-center justify-center rounded-full border disabled:border-gray-600 border-blue-300 bg-blue-600 disabled:bg-white disabled:text-gray-600 text-white focus:outline-none focus:ring-2"
+          class="flex items-center justify-center transition-all duration-300 disabled:text-gray-600 text-blue-600 focus:outline-none focus:ring-2"
         >
-          <i-lucide [img]="chevronLeft" class="w-10 h-10"></i-lucide>
+          <i-lucide [img]="chevronLeft" class="w-8 h-8"></i-lucide>
         </button>
         <button
           type="button"
@@ -31,9 +31,9 @@
             paginationService.desktop.currentPage() ===
             paginationService.desktop.totalPages()
           "
-          class="flex items-center justify-center rounded-full border transition-all duration-600 disabled:border-gray-600 border-blue-300 bg-blue-600 disabled:bg-white disabled:text-gray-600 text-white focus:outline-none focus:ring-2"
+          class="flex items-center justify-center transition-all duration-300 disabled:text-gray-600 text-blue-600 focus:outline-none focus:ring-2"
         >
-          <i-lucide [img]="chevronRight" class="w-10 h-10"></i-lucide>
+          <i-lucide [img]="chevronRight" class="w-8 h-8"></i-lucide>
         </button>
       </div>
     </section>
@@ -48,9 +48,9 @@
           type="button"
           (click)="paginationService.mobile.prev()"
           [disabled]="paginationService.mobile.currentPage() === 1"
-          class="flex items-center justify-center rounded-full border disabled:border-gray-600 border-blue-300 disabled:text-gray-600 text-blue-600 focus:outline-none focus:ring-2"
+          class="flex items-center justify-center transition-all duration-600 disabled:text-gray-600 text-blue-600"
         >
-          <i-lucide [img]="chevronLeft" class="w-9 h-9"></i-lucide>
+          <i-lucide [img]="chevronLeft" class="w-8 h-8"></i-lucide>
         </button>
         <button
           type="button"
@@ -59,9 +59,9 @@
             paginationService.mobile.currentPage() ===
             paginationService.mobile.totalPages()
           "
-          class="flex items-center justify-center rounded-full border disabled:border-gray-600 border-blue-300 disabled:text-gray-600 text-blue-600 focus:outline-none focus:ring-2"
+          class="flex items-center justify-center transition-all duration-600 disabled:text-gray-600 text-blue-600"
         >
-          <i-lucide [img]="chevronRight" class="w-9 h-9"></i-lucide>
+          <i-lucide [img]="chevronRight" class="w-8 h-8"></i-lucide>
         </button>
       </div>
     </section>
