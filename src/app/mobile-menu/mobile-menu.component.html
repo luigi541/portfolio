@@ -1,0 +1,45 @@
+<div class="flex gap-3 pb-2">
+  <app-lang-selector></app-lang-selector>
+  <button (click)="open = !open">
+    <i-lucide [img]="menu"></i-lucide>
+  </button>
+</div>
+
+@if (open) {
+<div
+  class="sm:hidden fixed inset-x-0 z-30 bg-black/30 backdrop-blur-[2px] transition-opacity duration-500 ease-in-out h-screen w-full"
+  [ngClass]="{ 'opacity-100': open, 'opacity-0 pointer-events-none': !open }"
+  (click)="open = false"
+></div>
+<div
+  class="md:hidden absolute z-40 left-0 right-0 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-lg"
+>
+  <div class="px-6 py-4 gap-4">
+    <button
+      class="block w-full text-left text-gray-600 hover:text-blue-600 transition-colors py-2 text-lg"
+      (click)="scrollSection('home')"
+    >
+      {{ "nav.home" | translate }}
+    </button>
+    <button
+      class="block w-full text-left text-gray-600 hover:text-blue-600 transition-colors py-2 text-lg"
+      (click)="scrollSection('about')"
+    >
+      {{ "nav.about" | translate }}
+    </button>
+    <button
+      class="block w-full text-left text-gray-600 hover:text-blue-600 transition-colors py-2 text-lg"
+      (click)="scrollSection('projects')"
+    >
+      {{ "nav.projects" | translate }}
+    </button>
+    <button
+      class="block w-full text-left text-gray-600 hover:text-blue-600 transition-colors py-2 text-lg"
+      (click)="scrollSection('contact')"
+    >
+      {{ "nav.contact" | translate }}
+    </button>
+  </div>
+</div>
+
+}
