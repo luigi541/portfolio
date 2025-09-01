@@ -2,7 +2,7 @@ name: Build and Deploy portfolio
 
 on:
   push:
-    branches: [main]
+    branches: [production]
   workflow_dispatch:
 
 permissions:
@@ -30,13 +30,11 @@ jobs:
         run: npm install --no-audit --no-fund
 
       - name: Build application
-        # Adjust base-href to match your repository name:
-        # For https://<user>.github.io/<repo>/ use "/<repo>/"
-        # For a user/org site (https://<user>.github.io/) use "/"
+
         run: npx ng build --configuration production --output-path docs --base-href /portfolio/
 
       - name: Adjust build output for GitHub Pages
-        # Angular 17+ outputs into docs/browser; flatten it if present
+
         run: |
           if [ -d "./docs/browser" ]; then
             shopt -s dotglob

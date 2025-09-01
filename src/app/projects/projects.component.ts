@@ -1,18 +1,25 @@
-import { Component, OnInit, Signal } from '@angular/core';
-import { ProjectsService } from '../projects.service';
+import { Component, Signal } from '@angular/core';
 import { project } from '../model/projects.model';
 import { TranslatePipe } from '@ngx-translate/core';
+import { LucideAngularModule, ChevronLeft, ChevronRight } from 'lucide-angular';
+import { PaginationService } from '../pagination.service';
+import { ProjectCardComponent } from '../project-card/project-card.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-projects',
-  imports: [TranslatePipe],
+  imports: [
+    TranslatePipe,
+    LucideAngularModule,
+    ProjectCardComponent,
+    CommonModule,
+  ],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.css',
 })
 export class ProjectsComponent {
-  projects: Signal<project[]>;
+  readonly chevronLeft = ChevronLeft;
+  readonly chevronRight = ChevronRight;
 
-  constructor(private projectService: ProjectsService) {
-    this.projects = this.projectService.projects;
-  }
+  constructor(public paginationService: PaginationService) {}
 }

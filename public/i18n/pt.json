@@ -60,12 +60,19 @@
         "title": "Vending Machine",
         "description": "Projeto desenvolvido em âmbito escolar que simula o software de uma máquina de venda automática. Inclui funcionalidades do ponto de vista do utilizador (compra de artigos) e do administrador (consulta de saldo, edição de preços, reposição de stock, entre outras).",
         "tech": ["C"],
-        "github": "#"
+        "github": "https://github.com/luigi541/VendingMachine"
       },
       {
         "title": "Site de portefólio",
         "description": "Este próprio portefólio! Desenvolvido com Angular e Tailwind CSS para apresentar os meus projetos e competências. Inclui animações suaves e design responsivo.",
         "tech": ["Angular", "Tailwind CSS", "TypeScript"],
+        "github": "https://github.com/luigi541/portfolio",
+        "live": "https://luigi541.github.io/portfolio/"
+      },
+      {
+        "title": "O mundo dos Cães",
+        "description": "Este projecto foi realizado em ambito escolar, onde podemos ver diversas raças de cães e alguns detalhes. foi o meu primeiro projecto em angular e permitiu consolidar conhecimentos",
+        "tech": ["Angular", "CSS", "TypeScript"],
         "github": "#",
         "live": "#"
       }
