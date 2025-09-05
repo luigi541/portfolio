@@ -51,9 +51,36 @@
     "description": "Aqui estão alguns projetos que desenvolvi enquanto aprendia a programar. Cada um ensinou-me algo novo e ajudou-me a crescer como programador.",
     "items": [
       {
-        "title": "Aplicação de pesquisa de filmes",
+        "title": "Portefólio",
+        "description": "Este próprio portefólio! Desenvolvido com Angular e Tailwind CSS para apresentar os meus projetos e competências. Inclui animações suaves e design responsivo.",
+        "tech": ["Angular", "Tailwind CSS", "TypeScript"],
+        "github": "https://github.com/luigi541/portfolio",
+        "live": "https://luigi541.github.io/portfolio/"
+      },
+      {
+        "title": "Jackson Barreto",
+        "description": "Durante o meu estágio na Innomatum, tive a oportunidade de desenvolver, de forma independente, um site pessoal para valorizar a presença online de um profissional",
+        "tech": [
+          "Angular",
+          "TypeScript",
+          "Tailwind CSS",
+          "REST API",
+          "Supabase"
+        ],
+        "github": "",
+        "live": "https://jacksonbarreto.com/en/"
+      },
+      {
+        "title": "WoofList",
+        "description": "O Wooflist foi o meu primeiro projeto em Angular, desenvolvido em contexto escolar. É uma aplicação onde é possível pesquisar diferentes raças de cães, ver detalhes de cada uma e até adicioná-las aos favoritos",
+        "tech": ["Angular", "CSS", "TypeScript", "REST API", "Bootstrap"],
+        "github": "https://github.com/luigi541/WoofList",
+        "live": ""
+      },
+      {
+        "title": "FlickFind",
         "description": "Aplicação web responsiva para acompanhar os últimos lançamentos e detalhes de filmes, com design interativo. Desenvolvida como projeto de aprendizagem para praticar JavaScript e integração de APIs.",
-        "tech": ["JavaScript", "API REST", "HTML5", "CSS3"],
+        "tech": ["JavaScript", "REST API", "HTML5", "CSS3", "Bootstrap"],
         "github": "https://github.com/luigi541/movieDB"
       },
       {
@@ -61,20 +88,6 @@
         "description": "Projeto desenvolvido em âmbito escolar que simula o software de uma máquina de venda automática. Inclui funcionalidades do ponto de vista do utilizador (compra de artigos) e do administrador (consulta de saldo, edição de preços, reposição de stock, entre outras).",
         "tech": ["C"],
         "github": "https://github.com/luigi541/VendingMachine"
-      },
-      {
-        "title": "Site de portefólio",
-        "description": "Este próprio portefólio! Desenvolvido com Angular e Tailwind CSS para apresentar os meus projetos e competências. Inclui animações suaves e design responsivo.",
-        "tech": ["Angular", "Tailwind CSS", "TypeScript"],
-        "github": "https://github.com/luigi541/portfolio",
-        "live": "https://luigi541.github.io/portfolio/"
-      },
-      {
-        "title": "O mundo dos Cães",
-        "description": "Este projecto foi realizado em ambito escolar, onde podemos ver diversas raças de cães e alguns detalhes. foi o meu primeiro projecto em angular e permitiu consolidar conhecimentos",
-        "tech": ["Angular", "CSS", "TypeScript"],
-        "github": "#",
-        "live": "#"
       }
     ],
     "code": "Código",
@@ -85,15 +98,22 @@
     "description": "Estou ativamente à procura da minha primeira oportunidade como programador e entusiasmado com a possibilidade de aprender e contribuir para projetos com impacto.",
     "email": {
       "title": "Envia-me um e-mail",
-      "description": "Envia-me uma mensagem a qualquer momento"
+      "description": "Envia-me uma mensagem a qualquer momento",
+      "link": "diogoazevedo541@gmail.com"
     },
     "linkedin": {
       "title": "LinkedIn",
-      "description": "Liga-te a mim no LinkedIn"
+      "description": "Liga-te a mim no LinkedIn",
+      "link": "linkedin.com/in/diogoazevedo-webdeveloper"
     },
     "github": {
       "title": "GitHub",
-      "description": "Vê o meu código"
+      "description": "Vê o meu código",
+      "link": "github.com/luigi541"
+    },
+    "snackbar": {
+      "copy": "Copiado com sucesso !",
+      "close": "fechar"
     },
     "cta": {
       "title": "Pronto para começar?",

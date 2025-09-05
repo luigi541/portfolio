@@ -50,30 +50,43 @@
     "description": "Here are some projects I've built while learning to code. Each one taught me something new and helped me grow as a developer.",
     "items": [
       {
-        "title": "Movie Search App",
-        "description": "Responsive web application to browse the latest releases and movie details, featuring an interactive design. Built as a learning project to practice JavaScript and API integration.",
-        "tech": ["JavaScript", "REST API", "HTML5", "CSS3"],
-        "github": "https://github.com/luigi541/movieDB"
-      },
-      {
-        "title": "Vending Machine",
-        "description": "School project that simulates the software of a vending machine. Includes user features (purchasing items) and admin features (balance checks, price editing, stock replenishment, and more).",
-        "tech": ["C"],
-        "github": "https://github.com/luigi541/VendingMachine"
-      },
-      {
-        "title": "Portfolio Website",
-        "description": "This very portfolio! Built with Angular and Tailwind CSS to showcase my projects and skills. Includes smooth animations and a responsive design.",
+        "title": "Portfolio",
+        "description": "This very portfolio! Built with Angular and Tailwind CSS to showcase my projects and skills. Features smooth animations and a responsive design.",
         "tech": ["Angular", "Tailwind CSS", "TypeScript"],
         "github": "https://github.com/luigi541/portfolio",
         "live": "https://luigi541.github.io/portfolio/"
       },
       {
-        "title": "O mundo dos Cães",
-        "description": "Este projecto foi realizado em ambito escolar, onde podemos ver diversas raças de cães e alguns detalhes. foi o meu primeiro projecto em angular e permitiu consolidar conhecimentos",
-        "tech": ["Angular", "CSS", "TypeScript"],
-        "github": "#",
-        "live": "#"
+        "title": "Jackson Barreto",
+        "description": "During my internship at Innomatum, I had the opportunity to independently develop a personal website to enhance a professional's online presence.",
+        "tech": [
+          "Angular",
+          "TypeScript",
+          "Tailwind CSS",
+          "REST API",
+          "Supabase"
+        ],
+        "github": "",
+        "live": "https://jacksonbarreto.com/en/"
+      },
+      {
+        "title": "WoofList",
+        "description": "WoofList was my first Angular project, developed in an academic setting. It’s a web app where users can search for different dog breeds, view their details, and even add them to favorites.",
+        "tech": ["Angular", "CSS", "TypeScript", "REST API", "Bootstrap"],
+        "github": "https://github.com/luigi541/WoofList",
+        "live": ""
+      },
+      {
+        "title": "FlickFind",
+        "description": "Responsive web application for tracking the latest movie releases and details, with an interactive design. Developed as a learning project to practice JavaScript and API integration.",
+        "tech": ["JavaScript", "REST API", "HTML5", "CSS3", "Bootstrap"],
+        "github": "https://github.com/luigi541/movieDB"
+      },
+      {
+        "title": "Vending Machine",
+        "description": "School project that simulates the software of a vending machine. Includes features for both users (purchasing items) and administrators (checking balance, editing prices, restocking, etc.).",
+        "tech": ["C"],
+        "github": "https://github.com/luigi541/VendingMachine"
       }
     ],
 
@@ -94,6 +107,10 @@
     "github": {
       "title": "GitHub",
       "description": "Check out my code"
+    },
+    "snackbar": {
+      "copy": "Copied successfully!",
+      "close": "Close"
     },
     "cta": {
       "title": "Ready to Start My Career?",
