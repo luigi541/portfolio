@@ -50,6 +50,22 @@
     "description": "Here are some projects I've built while learning to code. Each one taught me something new and helped me grow as a developer.",
     "items": [
       {
+        "title": "JWT Auth API",
+        "description": "Lightweight authentication API built with Node.js and Express, designed for secure user management. Uses MongoDB Atlas for cloud data storage, bcrypt for password hashing, and JSON Web Tokens (JWT) for session handling.",
+        "tech": [
+          "Node.js",
+          "Express",
+          "MongoDB Atlas",
+          "Mongoose 7",
+          "bcrypt",
+          "JWT",
+          "dotenv",
+          "cookie-parser"
+        ],
+        "github": "https://github.com/luigi541/Jwt_Auth_API-",
+        "live": ""
+      },
+      {
         "title": "Portfolio",
         "description": "This very portfolio! Built with Angular and Tailwind CSS to showcase my projects and skills. Features smooth animations and a responsive design.",
         "tech": ["Angular", "Tailwind CSS", "TypeScript"],

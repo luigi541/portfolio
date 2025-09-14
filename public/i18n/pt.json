@@ -51,6 +51,22 @@
     "description": "Aqui estão alguns projetos que desenvolvi enquanto aprendia a programar. Cada um ensinou-me algo novo e ajudou-me a crescer como programador.",
     "items": [
       {
+        "title": "JWT Auth API",
+        "description": "API de autenticação leve desenvolvida com Node.js e Express, projetada para gestão segura de utilizadores. Utiliza o MongoDB Atlas para armazenamento de dados na cloud, bcrypt para encriptação de palavras-passe e JSON Web Tokens (JWT) para gestão de sessões.",
+        "tech": [
+          "Node.js",
+          "Express",
+          "MongoDB Atlas",
+          "Mongoose 7",
+          "bcrypt",
+          "JWT",
+          "dotenv",
+          "cookie-parser"
+        ],
+        "github": "https://github.com/luigi541/Jwt_Auth_API-",
+        "live": ""
+      },
+      {
         "title": "Portefólio",
         "description": "Este próprio portefólio! Desenvolvido com Angular e Tailwind CSS para apresentar os meus projetos e competências. Inclui animações suaves e design responsivo.",
         "tech": ["Angular", "Tailwind CSS", "TypeScript"],
