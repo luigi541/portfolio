@@ -26,7 +26,11 @@
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
         <button
-          onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })"
+          onclick="
+            document
+              .getElementById('projects')
+              .scrollIntoView({ behavior: 'smooth' })
+          "
           class="flex items-center justify-center gap-2 px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold shadow-lg hover:shadow-xl transform hover:scale-105"
         >
           <i-lucide [img]="folder" class="w-6 h-6"></i-lucide>
@@ -41,7 +45,11 @@
           {{ "hero.downloadCV" | translate }}
         </a>
         <button
-          onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })"
+          onclick="
+            document
+              .getElementById('contact')
+              .scrollIntoView({ behavior: 'smooth' })
+          "
           class="flex items-center justify-center gap-2 px-8 py-4 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition-colors font-semibold"
         >
           <i-lucide [img]="contact" class="w-6 h-6"></i-lucide>
@@ -50,7 +58,7 @@
       </div>
       <div class="flex justify-center gap-6">
         <a
-          href="#"
+          href="https://www.linkedin.com/in/diogoazevedo-developer/"
           target="_blank"
           class="text-gray-600 hover:text-blue-600 transition-colors transform hover:scale-110"
         >
@@ -74,7 +82,7 @@
           </svg>
         </a>
         <a
-          href="#"
+          href="https://github.com/luigi541"
           target="_blank"
           class="text-gray-600 hover:text-blue-600 transition-colors transform hover:scale-110"
         >
@@ -91,7 +99,7 @@
           </svg>
         </a>
         <a
-          href="#"
+          href="mailto:diogoazevedo541@gmail.com"
           target="_blank"
           class="text-gray-600 hover:text-blue-600 transition-colors transform hover:scale-110"
         >
