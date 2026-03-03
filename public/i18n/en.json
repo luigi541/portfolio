@@ -50,6 +50,20 @@
     "description": "Here are some projects I've built while learning to code. Each one taught me something new and helped me grow as a developer.",
     "items": [
       {
+        "title": "Staff-Flow",
+        "description": "A comprehensive HR and vacation management platform built for modern enterprises. Features a reactive dashboard for tracking staff, a smart vacation planning system with automated allowance calculations.",
+        "tech": [
+          "Angular 20",
+          "Ionic 8",
+          "Angular Signals",
+          "Tailwind CSS",
+          "Reactive Forms",
+          "TypeScript"
+        ],
+        "github": "https://github.com/luigi541/staff-flow",
+        "live": ""
+      },
+      {
         "title": "JWT Auth API",
         "description": "Lightweight authentication API built with Node.js and Express, designed for secure user management. Uses MongoDB Atlas for cloud data storage, bcrypt for password hashing, and JSON Web Tokens (JWT) for session handling.",
         "tech": [
