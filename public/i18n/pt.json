@@ -51,6 +51,20 @@
     "description": "Aqui estão alguns projetos que desenvolvi enquanto aprendia a programar. Cada um ensinou-me algo novo e ajudou-me a crescer como programador.",
     "items": [
       {
+        "title": "Staff-Flow",
+        "description": "Plataforma de gestão de recursos humanos e controlo de férias. Inclui um dashboard reativo para gestão de colaboradores e um sistema inteligente de marcação de férias com cálculo automático de dias disponíveis.",
+        "tech": [
+          "Angular 20",
+          "Ionic 8",
+          "Angular Signals",
+          "Tailwind CSS",
+          "Reactive Forms",
+          "TypeScript"
+        ],
+        "github": "https://github.com/luigi541/staff-flow",
+        "live": ""
+      },
+      {
         "title": "JWT Auth API",
         "description": "API de autenticação leve desenvolvida com Node.js e Express, projetada para gestão segura de utilizadores. Utiliza o MongoDB Atlas para armazenamento de dados na cloud, bcrypt para encriptação de palavras-passe e JSON Web Tokens (JWT) para gestão de sessões.",
         "tech": [
